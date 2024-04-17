@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header-bar {
+  background-color: rgb(0, 145, 255);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
+
+.search-bar {
+  margin-right: 5rem;
+}
+
+.search-input {
+  width: 130%;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.team-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.team-member {
+  width: calc(25% - 1rem);
+  max-width: 300px;
+  background-color: #f2f2f2;
+  padding: 1rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 2rem;
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+  background-color:rgb(94, 121, 128);
+}
+
+.team-member img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 1rem;
+}
+
+.member-info {
+  overflow: hidden;
+}
+
+.member-info h2 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 14px;
+}
+
+.member-info p {
+  margin-top: 0;
+  font-size: 12px;
+}
+.team-member-message {
+  font-weight: bold;
+  font-size:x-large;
+  padding-left: 10px;
+
+
+}
